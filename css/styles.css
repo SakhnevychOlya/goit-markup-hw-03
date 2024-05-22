@@ -70,6 +70,7 @@ button {
 .header-container{
     display:flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .header-navigation{
@@ -79,7 +80,7 @@ button {
 }
 
 .header-logo {
-    padding: 24px 0;
+    
     margin-right: 76px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -92,7 +93,7 @@ button {
 
 .header-menu-list{
     display: flex;
-    gap: 40px;
+    row-gap: 40px;
 
 }
 
