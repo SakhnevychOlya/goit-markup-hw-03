@@ -75,10 +75,11 @@ button {
 .header-navigation{
     display: flex;
     align-items: center;
-    padding: 24px 0;
+   
 }
 
 .header-logo {
+    padding: 24px 0;
     margin-right: 76px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -199,7 +200,7 @@ color: #2e2f42;
     margin-bottom: 8px;
 }
 
-.visually-hidden { /*Features title*/
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -209,7 +210,7 @@ color: #2e2f42;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hipxdden;
+    overflow: hidden;
 }
 
 .features-list{
@@ -324,6 +325,7 @@ color: #2e2f42;
 }
 
 .portfolio-list-item {
+    margin-bottom: 48px;
     width: 360px;
     height: 420px;
     background: white;
