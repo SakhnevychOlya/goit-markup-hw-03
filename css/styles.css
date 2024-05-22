@@ -53,7 +53,6 @@ button {
 }
 
 .container {
-
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -93,12 +92,12 @@ button {
 
 .header-menu-list{
     display: flex;
-    row-gap: 40px;
+    gap: 40px;
 
 }
 
 .header-menu-item {
-
+    padding: 24 px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -326,6 +325,7 @@ color: #2e2f42;
 }
 
 .portfolio-list-item {
+    row-gap: 48px;
     margin-bottom: 48px;
     width: 360px;
     height: 420px;
