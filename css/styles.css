@@ -134,7 +134,7 @@ color: #2e2f42;
 
 .contacts-link {
 
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -256,7 +256,7 @@ color: #2e2f42;
     background: #f4f4fd;
 }
 .card{
-    padding: 32px 0;
+   padding: 32px 0; 
 }
 .portfolio-title,
 .team-title {
@@ -283,7 +283,6 @@ color: #2e2f42;
     text-align: center;
     border-radius: 0 0 4px 4px;
     width: 264px;
-    height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: white;
 }
@@ -291,7 +290,6 @@ color: #2e2f42;
 .team-list-item-name{
 
         margin-bottom: 8px;
-        margin-top:32px;
         font-weight: 500;
         font-size: 20px;
         line-height: 120%;
@@ -326,10 +324,7 @@ color: #2e2f42;
 }
 
 .portfolio-list-item {
-    
-    margin-bottom: 48px;
     width: 360px;
-    height: 420px;
     background: white;
 }
 
